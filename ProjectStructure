@@ -1,0 +1,6 @@
+my-python-app/
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── Jenkinsfile
+└── test_app.py

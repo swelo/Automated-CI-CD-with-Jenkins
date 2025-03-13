@@ -1,0 +1,4 @@
+# The requiered tools to make this project.
+
+# flask
+# pytest

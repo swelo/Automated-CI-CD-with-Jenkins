@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/your-python-repo.git'
+                git 'https://github.com/swelo/Automated-CI-CD-with-Jenkins.git'
             }
         }
 

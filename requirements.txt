@@ -3,4 +3,5 @@
 # flask
 # pytest
 
-pytest==<desired_version>
+flask
+pytest

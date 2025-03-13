@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/swelo/Automated-CI-CD-with-Jenkins.git'
+                git branch: 'main', url: 'https://github.com/swelo/Automated-CI-CD-with-Jenkins.git'
+
             }
         }
 

@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "my-python-app:${BUILD_NUMBER}"
+        DOCKER_IMAGE = "swelo/my-python-app:${BUILD_NUMBER}"
     }
 
     stages {
